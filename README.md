@@ -53,6 +53,10 @@ vagrant ssh
 cd /vagrant
 composer install
 ```
+or
+```
+vagrant ssh -c "cd /vagrant; composer install"
+```
 
 ## Security Note
 
